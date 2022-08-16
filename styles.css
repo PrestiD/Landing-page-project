@@ -106,12 +106,17 @@ a {
 
 .section-b-pictures-and-text {
     display: flex;
+    gap: 32px;
 }
 
 .sec-b-pic-text-a, .sec-b-pic-text-b, .sec-b-pic-text-c, .sec-b-pic-text-d {
     Flex: 1;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100px;
 }
 
 img.image-b {

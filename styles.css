@@ -2,6 +2,8 @@
 
 body {
     font-family: "roboto", sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .header, .footer {
@@ -10,8 +12,10 @@ body {
     color: white;
     display: flex;
     align-items: center;
+    flex-shrink: 0;
 }
 
+/* Header materials */
 .header {
     justify-content: space-around;
 }
@@ -21,6 +25,23 @@ body {
     font-weight: bolder; 
     color: #F9FAF8;
 }
+
+
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 16px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+a {
+    text-decoration: none;
+    color: #F9FAF8;
+}
+
+/*body 1 and 2 */
 
 .footer {
     justify-content: center;

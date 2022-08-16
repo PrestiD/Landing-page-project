@@ -95,6 +95,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: flex-start;
 }
 
 .h2 {
@@ -103,6 +104,20 @@ a {
     font-weight: 900;
 }
 
+.section-b-pictures-and-text {
+    display: flex;
+}
+
+.sec-b-pic-text-a, .sec-b-pic-text-b, .sec-b-pic-text-c, .sec-b-pic-text-d {
+    Flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+img.image-b {
+    height: 100px;
+    width: 100px;
+}
 .footer {
     justify-content: center;
     flex: 1
